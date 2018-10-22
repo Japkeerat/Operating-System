@@ -6,8 +6,11 @@ Non-preemptive scheduling algorithms implementations are available here.
 #### Algorithms implemented
 
 SJF --> Shortest Job First
+
 FCFS --> First Come First Serve
+
 RR --> Round Robin
+
 Priority Scheduling
 
 #### Points to note:
