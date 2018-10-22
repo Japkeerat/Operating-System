@@ -44,7 +44,7 @@ int main() {
 
     //Calculating waiting time and turnaround time for all processes
     for(int i=1; i<n; i++) {
-        waiting[i] = waiting[i-1]+burst[i-1]-priority[i];
+        waiting[i] = waiting[i-1]+burst[i-1];
         turnaround[i] = waiting[i]+burst[i];
     }
 
